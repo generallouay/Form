@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rebeccapurple;
+}
+.form-wrapper{
+    margin: 50px auto;
+    max-width: 400px;
+    background-color: white;
+}
+h1, p{
+    text-align: center;
+    padding-top: 10px;
+}
+h1{
+    padding-top: 20px;
+}
+p {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+/* ------------------------------------------------------------------- */
+label{
+    display: block;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+.input1{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgb(194, 189, 189);
+    border-radius: 8px;
+}
+.form-group{
+    margin: 10px 30px;
+    font-weight: 500;
+}
+/* ------------------------------------------------------------------- */
+#checkbox{
+margin-left: 30px;
+
+}
+#digga{
+    display: inline;
+    font-size: 12px;
+}
+#anchor{
+    display: inline;
+    margin-left: 135px;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------------- */
+.btn{
+    display: block;
+    border: none;
+    width: 70%;
+    padding: 11px;
+    margin: auto;
+    background-color:#663399 ;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: white;
+
+}
+.btn:hover{
+    background-color: #9b4beb;
+}
+a{
+    text-decoration: none;
+    color: #663399;
+}
+a:hover{
+    color: #9b4beb;
+}
+.I-agree{
+    font-size: 14px;
+}
+#already{
+    padding-bottom: 15px;
+}
